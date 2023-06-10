@@ -2,9 +2,5 @@
 
 
 def divisible_by_2(my_list=[]):
-
-    if my_list is None:
-        return None
-
-    if len(my_list) == 0:
-        return None
+    result = [True if n % 2 == 0 else False for n in my_list]
+    return (result)
